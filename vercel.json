@@ -1,9 +1,4 @@
 {
-    "builds": [
-      {
-        "src": "Dockerfile",
-        "use": "@vercel/docker"
-      }
-    ]
-  }
-  
+  "buildCommand": "npm run build",
+  "outputDirectory": "build"
+}
